@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #cecef4;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.logo-img {
+  width: 100px;
+  height: 50px;
+}
+.right-align {
+  margin-left: auto;
+}
+.btn {
+  background-color: #13167e;
+  color: white;
+  font-size: 200;
+  box-sizing: border-box;
+  border: 2px;
+  box-shadow: 0 0 5px grey;
+}

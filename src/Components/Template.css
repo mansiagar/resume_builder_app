@@ -1,0 +1,12 @@
+.Template {
+  display: flex;
+  flex-direction: row;
+}
+.first-template {
+  width: 50%;
+  margin: 20px;
+  box-sizing: border-box;
+  background-color: rgb(227, 226, 232);
+  border: 1px solid #333;
+  border-radius: 5px;
+}
