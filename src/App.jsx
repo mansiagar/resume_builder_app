@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import Home from "./Components/Home";
+import Home from "./Components/Home/Home";
 import Templates from "./Components/Templates";
 import UserForm from "./Components/UserForm";
 
