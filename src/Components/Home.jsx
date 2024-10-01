@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
       <Nav />
-      <h1>Resume Builder App</h1>
+      <h1>React App</h1>
       <Button className="btn" onClick={handleClick}>
         Create CV
       </Button>
