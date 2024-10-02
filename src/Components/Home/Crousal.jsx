@@ -2,7 +2,7 @@ import React from "react";
 import { Button, Carousel, Typography, Row, Col } from "antd";
 import { useNavigate } from "react-router-dom";
 
-import Resume from "../../Assets/Resume.jpg";
+import Resume from "../../Assets/Resume.png";
 
 const { Title, Paragraph } = Typography;
 

@@ -67,7 +67,15 @@ const ChooseSection = () => {
         </Col>
         <Col span={12}>
           <div className="right-section">
-            <h1 style={{ marginBottom: "100px" }}>Why Choose Us?</h1>
+            <h1
+              style={{
+                marginBottom: "100px",
+                color: "#13167E",
+                fontSize: "40px",
+              }}
+            >
+              Why Choose Us?
+            </h1>
           </div>
           <div className="buttons">
             <Button

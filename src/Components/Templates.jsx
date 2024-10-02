@@ -40,7 +40,7 @@ const Templates = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/personal-info"); // Navigate to the first form step (PersonalInfoForm)
+    navigate("/Personal"); // Navigate to the first form step (PersonalInfoForm)
   };
 
   return (
