@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col } from "antd";
 import { Card, Space } from "antd";
+import { StarOutlined } from "@ant-design/icons";
+
 const CardBox = () => {
   return (
     <div>
@@ -14,56 +16,93 @@ const CardBox = () => {
           justifyContent: "center",
           alignItems: "center",
           flexDirection: "row",
+          flexWrap: "wrap",
           margin: 0,
         }}
       >
         <Col span={8}>
           <div>
-            <Space direction="vertical">
+            <Space>
               <Card
-                title="Default size card"
-                extra={<a href="/">More</a>}
                 style={{
-                  width: 200,
+                  width: 300,
                 }}
               >
-                <p>Card content</p>
-                <p>Card content</p>
-                <p>Card content</p>
+                <h3>Mansi</h3>
+                <div>
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                </div>
+                <p>
+                  Very intuitive interface, and I managed to create a resume
+                  quickly. However, adding an auto-save feature would make the
+                  experience smoother.
+                </p>
               </Card>
             </Space>
           </div>
         </Col>
         <Col span={8}>
           <div>
-            <Space direction="vertical" size={16}>
+            <Space>
               <Card
-                title="Default size card"
-                extra={<a href="/">More</a>}
                 style={{
-                  width: 200,
+                  width: 300,
                 }}
               >
-                <p>Card content</p>
-                <p>Card content</p>
-                <p>Card content</p>
+                <h3>Mansi</h3>
+                <div>
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                </div>
+                <p>
+                  Great app! The real-time preview feature is awesome. I would
+                  love to see customization options like changing font styles
+                  and colors.
+                </p>
               </Card>
             </Space>
           </div>
         </Col>
         <Col span={8}>
           <div>
-            <Space direction="vertical" size={16}>
+            <Space>
               <Card
-                title="Default size card"
-                extra={<a href="/">More</a>}
                 style={{
-                  width: 200,
+                  width: 300,
                 }}
               >
-                <p>Card content</p>
-                <p>Card content</p>
-                <p>Card content</p>
+                <h3>Mansi</h3>
+                <div>
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                  <StarOutlined
+                    style={{ fontSize: "24px", color: "#fadb14" }}
+                  />
+                </div>
+                <p>
+                  Nice app! It was easy to create my resume, but I think more
+                  customization options like adding social media links and
+                  portfolio sections would be helpful.
+                </p>
               </Card>
             </Space>
           </div>

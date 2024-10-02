@@ -25,7 +25,9 @@ const UseSection = () => {
         <Col span={12}>
           <div className="left-section">
             <div>
-              <h1>Use the best Resume Maker As Your Guide</h1>
+              <h1 style={{ color: "#13167E", fontSize: "40px" }}>
+                Use the best Resume Maker As Your Guide
+              </h1>
             </div>
             <div className="buttons">
               <Button
@@ -55,7 +57,7 @@ const UseSection = () => {
               src={Resume2}
               alt="Resume"
               className="student-image"
-              style={{ height: "100%", maxWidth: 600 }}
+              style={{ height: "80%", maxWidth: 400 }}
             />
           </div>
         </Col>
