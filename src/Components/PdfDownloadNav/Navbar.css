@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: white; /* Ant Design default dark color */
+}
+
+.menu {
+  flex: 1;
+}
+
+.download-button {
+  margin-right: 20px;
+}

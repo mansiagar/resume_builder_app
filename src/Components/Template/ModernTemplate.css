@@ -1,0 +1,15 @@
+.left-part {
+  width: 10%;
+  background-color: #001562;
+}
+.right-part {
+  width: 90%;
+  background-color: #f4f6ff;
+  padding-left: 10px;
+}
+.modern-Template {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+}

@@ -5,6 +5,7 @@ import Hired from "./HiredSection";
 import CardBox from "./Card";
 import ChooseSection from "./ChooseSection";
 import UseSection from "./UseSection";
+import FooterComponent from "./Footer";
 const Home = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ const Home = () => {
       <ChooseSection />
       <CardBox />
       <UseSection />
+      <FooterComponent />
     </div>
   );
 };

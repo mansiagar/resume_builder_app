@@ -7,10 +7,14 @@ import {
   AppstoreOutlined,
   WindowsOutlined,
 } from "@ant-design/icons";
+import "./HiredSection.css";
 
 function Hired() {
   return (
     <div className="highlights flex">
+      <div>
+        <h3 className="hired-heading">Our Students Hired by:</h3>
+      </div>
       <div
         className="highlight-container flex"
         style={{ flexDirection: "column" }}

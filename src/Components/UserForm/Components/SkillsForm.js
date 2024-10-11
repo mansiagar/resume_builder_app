@@ -1,5 +1,5 @@
-import React from 'react';
-import { Form, Select, Button } from 'antd';
+import React from "react";
+import { Form, Select, Button } from "antd";
 
 const { Option } = Select;
 
@@ -7,38 +7,82 @@ function SkillsForm({ formData, setFormData, nextStep, prevStep }) {
   const [form] = Form.useForm();
 
   const technicalSkillsOptions = [
-    'JavaScript', 'React.js', 'Node.js', 'Python', 'HTML', 'CSS', 'MongoDB', 'SQL', 'Git',
-    'Docker', 'Kubernetes', 'C++', 'Java', 'Angular', 'Vue.js', 'AWS', 'Azure', 'Linux',
-    'Data Analysis', 'Machine Learning', 'TensorFlow', 'TypeScript', 'Go', 'GraphQL', 'SASS', 'Next.js'
+    "JavaScript",
+    "React.js",
+    "Node.js",
+    "Python",
+    "HTML",
+    "CSS",
+    "MongoDB",
+    "SQL",
+    "Git",
+    "Docker",
+    "Kubernetes",
+    "C++",
+    "Java",
+    "Angular",
+    "Vue.js",
+    "AWS",
+    "Azure",
+    "Linux",
+    "Data Analysis",
+    "Machine Learning",
+    "TensorFlow",
+    "TypeScript",
+    "Go",
+    "GraphQL",
+    "SASS",
+    "Next.js",
   ];
 
   const softSkillsOptions = [
-    'Communication', 'Teamwork', 'Problem Solving', 'Leadership', 'Adaptability', 'Creativity',
-    'Work Ethic', 'Time Management', 'Conflict Resolution', 'Critical Thinking', 'Decision Making',
-    'Emotional Intelligence', 'Negotiation', 'Collaboration', 'Empathy', 'Listening', 'Stress Management'
+    "Communication",
+    "Teamwork",
+    "Problem Solving",
+    "Leadership",
+    "Adaptability",
+    "Creativity",
+    "Work Ethic",
+    "Time Management",
+    "Conflict Resolution",
+    "Critical Thinking",
+    "Decision Making",
+    "Emotional Intelligence",
+    "Negotiation",
+    "Collaboration",
+    "Empathy",
+    "Listening",
+    "Stress Management",
   ];
 
   const onFinish = (values) => {
-    const updatedData = { 
-      ...formData, 
-      technicalSkills: values.technicalSkills, 
-      softSkills: values.softSkills 
-    };
-    setFormData(updatedData);
-    nextStep(); // Proceed to the next step
+    setFormData({
+      ...formData,
+      technicalSkills: values.technicalSkills,
+      softSkills: values.softSkills,
+    });
+    console.log({
+      technicalSkills: values.technicalSkills,
+      softSkills: values.softSkills,
+    });
+    nextStep();
   };
 
   return (
-    <Form form={form} layout="vertical" onFinish={onFinish} initialValues={{ 
-      technicalSkills: formData.technicalSkills || [], 
-      softSkills: formData.softSkills || [] 
-    }}>
-      
+    <Form
+      form={form}
+      layout="vertical"
+      onFinish={onFinish}
+      initialValues={{
+        technicalSkills: formData.technicalSkills || [],
+        softSkills: formData.softSkills || [],
+      }}
+    >
       {/* Technical Skills */}
       <Form.Item label="Technical Skills" name="technicalSkills">
         <Select
           mode="tags"
-          style={{ width: '100%' }}
+          style={{ width: "100%" }}
           placeholder="Select or type your technical skills"
           defaultValue={formData.technicalSkills || []}
         >
@@ -54,7 +98,7 @@ function SkillsForm({ formData, setFormData, nextStep, prevStep }) {
       <Form.Item label="Soft Skills" name="softSkills">
         <Select
           mode="tags"
-          style={{ width: '100%' }}
+          style={{ width: "100%" }}
           placeholder="Select or type your soft skills"
           defaultValue={formData.softSkills || []}
         >
@@ -64,6 +108,26 @@ function SkillsForm({ formData, setFormData, nextStep, prevStep }) {
             </Option>
           ))}
         </Select>
+      </Form.Item>
+
+      {/* Save Button */}
+      <Form.Item>
+        <Button
+          type="primary"
+          htmlType="submit"
+          style={{
+            backgroundColor: "#553CDF",
+            color: "#fff",
+            marginRight: "10px",
+
+            borderRadius: "4px",
+            transition: "0.3s",
+            fontWeight: "500",
+            width: "150px",
+          }}
+        >
+          Save
+        </Button>
       </Form.Item>
     </Form>
   );

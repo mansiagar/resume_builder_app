@@ -2,24 +2,11 @@ import React from "react";
 import { Row, Col } from "antd";
 import { Card, Space } from "antd";
 import { StarOutlined } from "@ant-design/icons";
-
+import "./Card.css";
 const CardBox = () => {
   return (
     <div>
-      <Row
-        className="slide-content"
-        justify="space-between"
-        align="middle"
-        style={{
-          backgroundColor: "#553cdf",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          flexDirection: "row",
-          flexWrap: "wrap",
-          margin: 0,
-        }}
-      >
+      <Row className="slide-content">
         <Col span={8}>
           <div>
             <Space>

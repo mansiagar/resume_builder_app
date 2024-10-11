@@ -1,5 +1,5 @@
-import React from 'react';
-import { Progress } from 'antd';
+import React from "react";
+import { Progress } from "antd";
 
 function ProgressBar({ currentStep, totalSteps }) {
   const percentComplete = (currentStep / totalSteps) * 100;
@@ -12,4 +12,3 @@ function ProgressBar({ currentStep, totalSteps }) {
 }
 
 export default ProgressBar;
-

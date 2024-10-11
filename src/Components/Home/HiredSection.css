@@ -1,0 +1,26 @@
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hired-heading {
+  text-align: start; /* Aligns the heading to the start */
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.highlight-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.highlight-content h1 {
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+}

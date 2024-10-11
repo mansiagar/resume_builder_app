@@ -7,13 +7,8 @@
 .logo {
   display: flex;
   justify-content: flex-start;
-  margin-left: 20px;
-  margin-top: 5px;
 }
-.logo-img {
-  width: 100px;
-  height: 40px;
-}
+
 .right-align {
   margin-left: auto;
 }

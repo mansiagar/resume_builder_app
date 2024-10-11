@@ -1,12 +1,32 @@
 .Template {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: stretch;
 }
-.first-template {
-  width: 50%;
+
+.first-template,
+.Second-template {
+  width: 45%;
   margin: 20px;
-  box-sizing: border-box;
-  background-color: rgb(227, 226, 232);
-  border: 1px solid #333;
-  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.template-div {
+  transition: all 0.3s ease;
+  flex-grow: 1;
+}
+
+.template-div.selected {
+  background-color: #553cdf;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.first-template-btn,
+.second-template-btn {
+  margin: 10px;
+  align-self: center;
 }
