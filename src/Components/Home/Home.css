@@ -341,3 +341,16 @@
     background: linear-gradient(#553cdf, #50e3c2); /* Blue to Green Gradient */
   }
 }
+@media screen and (max-width: 768px) {
+  .student-image {
+    display: none;
+  }
+
+  .slide-title {
+    display: none;
+  }
+
+  .left-section {
+    text-align: center;
+  }
+}
