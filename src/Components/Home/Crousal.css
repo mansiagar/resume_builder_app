@@ -1,0 +1,55 @@
+.slide-container {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(240, 63%, 88%);
+  overflow: hidden;
+}
+
+.slide-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-section {
+  padding: 20px;
+}
+
+.slide-heading {
+  font-size: 50px;
+  color: #221859;
+  font-weight: 600;
+}
+
+.slide-title {
+  font-size: 18px;
+  color: #737477;
+  line-height: 1.6;
+}
+
+.buttons button {
+  background-color: #553cdf;
+  color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.student-image {
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 768px) {
+  .student-image {
+    display: none;
+  }
+
+  .slide-title {
+    display: none;
+  }
+
+  .left-section {
+    text-align: center;
+  }
+}

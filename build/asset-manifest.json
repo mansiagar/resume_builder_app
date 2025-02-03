@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/resume_builder_app/static/css/main.cef28fd6.css",
+    "main.js": "/resume_builder_app/static/js/main.a420fedf.js",
+    "static/js/213.7d76fdbd.chunk.js": "/resume_builder_app/static/js/213.7d76fdbd.chunk.js",
+    "static/js/667.2463e62a.chunk.js": "/resume_builder_app/static/js/667.2463e62a.chunk.js",
+    "static/js/453.df1a2d8d.chunk.js": "/resume_builder_app/static/js/453.df1a2d8d.chunk.js",
+    "static/media/resume2.png": "/resume_builder_app/static/media/resume2.edf13dc3ca429272f6d8.png",
+    "static/media/Resume.png": "/resume_builder_app/static/media/Resume.7b2243fc4956715e0bdf.png",
+    "static/media/Engineer_StudyHub_-removebg-preview.png": "/resume_builder_app/static/media/Engineer_StudyHub_-removebg-preview.2ba85cdf9b69d918d213.png",
+    "static/media/logo.png": "/resume_builder_app/static/media/logo.778577753dbe5384f813.png",
+    "index.html": "/resume_builder_app/index.html",
+    "main.cef28fd6.css.map": "/resume_builder_app/static/css/main.cef28fd6.css.map",
+    "main.a420fedf.js.map": "/resume_builder_app/static/js/main.a420fedf.js.map",
+    "213.7d76fdbd.chunk.js.map": "/resume_builder_app/static/js/213.7d76fdbd.chunk.js.map",
+    "667.2463e62a.chunk.js.map": "/resume_builder_app/static/js/667.2463e62a.chunk.js.map",
+    "453.df1a2d8d.chunk.js.map": "/resume_builder_app/static/js/453.df1a2d8d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cef28fd6.css",
+    "static/js/main.a420fedf.js"
+  ]
+}

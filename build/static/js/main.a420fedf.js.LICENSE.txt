@@ -1,0 +1,1204 @@
+/*!
+	Copyright (c) 2018 Jed Watson.
+	Licensed under the MIT License (MIT), see
+	http://jedwatson.github.io/classnames
+*/
+
+/*!
+         * @overview es6-promise - a tiny implementation of Promises/A+.
+         * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
+         * @license   Licensed under MIT license
+         *            See https://raw.githubusercontent.com/stefanpenner/es6-promise/master/LICENSE
+         * @version   v4.2.8+1e68dce6
+         */
+
+/*!
+ * html2canvas 1.4.1 <https://html2canvas.hertzen.com>
+ * Copyright (c) 2022 Niklas von Hertzen <https://hertzen.com>
+ * Released under MIT License
+ */
+
+/*!
+ * html2pdf.js v0.10.2
+ * Copyright (c) 2024 Erik Koopmans
+ * Released under the MIT License.
+ */
+
+/*! *****************************************************************************
+  Copyright (c) Microsoft Corporation.
+    Permission to use, copy, modify, and/or distribute this software for any
+  purpose with or without fee is hereby granted.
+    THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+  REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+  AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+  INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+  LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+  OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+  PERFORMANCE OF THIS SOFTWARE.
+  ***************************************************************************** */
+
+/*! ../internals/a-function */
+
+/*! ../internals/a-possible-prototype */
+
+/*! ../internals/add-to-unscopables */
+
+/*! ../internals/an-object */
+
+/*! ../internals/array-for-each */
+
+/*! ../internals/array-includes */
+
+/*! ../internals/array-iteration */
+
+/*! ../internals/array-method-has-species-support */
+
+/*! ../internals/array-method-is-strict */
+
+/*! ../internals/array-species-constructor */
+
+/*! ../internals/array-species-create */
+
+/*! ../internals/classof */
+
+/*! ../internals/classof-raw */
+
+/*! ../internals/copy-constructor-properties */
+
+/*! ../internals/correct-prototype-getter */
+
+/*! ../internals/create-html */
+
+/*! ../internals/create-iterator-constructor */
+
+/*! ../internals/create-non-enumerable-property */
+
+/*! ../internals/create-property */
+
+/*! ../internals/create-property-descriptor */
+
+/*! ../internals/define-iterator */
+
+/*! ../internals/define-well-known-symbol */
+
+/*! ../internals/descriptors */
+
+/*! ../internals/document-create-element */
+
+/*! ../internals/dom-iterables */
+
+/*! ../internals/engine-user-agent */
+
+/*! ../internals/engine-v8-version */
+
+/*! ../internals/enum-bug-keys */
+
+/*! ../internals/export */
+
+/*! ../internals/fails */
+
+/*! ../internals/function-bind-context */
+
+/*! ../internals/get-built-in */
+
+/*! ../internals/global */
+
+/*! ../internals/has */
+
+/*! ../internals/hidden-keys */
+
+/*! ../internals/html */
+
+/*! ../internals/ie8-dom-define */
+
+/*! ../internals/indexed-object */
+
+/*! ../internals/inherit-if-required */
+
+/*! ../internals/inspect-source */
+
+/*! ../internals/internal-state */
+
+/*! ../internals/is-array */
+
+/*! ../internals/is-forced */
+
+/*! ../internals/is-object */
+
+/*! ../internals/is-pure */
+
+/*! ../internals/is-symbol */
+
+/*! ../internals/iterators */
+
+/*! ../internals/iterators-core */
+
+/*! ../internals/native-symbol */
+
+/*! ../internals/native-weak-map */
+
+/*! ../internals/object-assign */
+
+/*! ../internals/object-create */
+
+/*! ../internals/object-define-properties */
+
+/*! ../internals/object-define-property */
+
+/*! ../internals/object-get-own-property-descriptor */
+
+/*! ../internals/object-get-own-property-names */
+
+/*! ../internals/object-get-own-property-names-external */
+
+/*! ../internals/object-get-own-property-symbols */
+
+/*! ../internals/object-get-prototype-of */
+
+/*! ../internals/object-keys */
+
+/*! ../internals/object-keys-internal */
+
+/*! ../internals/object-property-is-enumerable */
+
+/*! ../internals/object-set-prototype-of */
+
+/*! ../internals/object-to-string */
+
+/*! ../internals/ordinary-to-primitive */
+
+/*! ../internals/own-keys */
+
+/*! ../internals/path */
+
+/*! ../internals/redefine */
+
+/*! ../internals/regexp-flags */
+
+/*! ../internals/require-object-coercible */
+
+/*! ../internals/set-global */
+
+/*! ../internals/set-to-string-tag */
+
+/*! ../internals/shared */
+
+/*! ../internals/shared-key */
+
+/*! ../internals/shared-store */
+
+/*! ../internals/string-html-forced */
+
+/*! ../internals/string-multibyte */
+
+/*! ../internals/string-trim */
+
+/*! ../internals/to-absolute-index */
+
+/*! ../internals/to-indexed-object */
+
+/*! ../internals/to-integer */
+
+/*! ../internals/to-length */
+
+/*! ../internals/to-object */
+
+/*! ../internals/to-primitive */
+
+/*! ../internals/to-property-key */
+
+/*! ../internals/to-string */
+
+/*! ../internals/to-string-tag-support */
+
+/*! ../internals/uid */
+
+/*! ../internals/use-symbol-as-uid */
+
+/*! ../internals/well-known-symbol */
+
+/*! ../internals/well-known-symbol-wrapped */
+
+/*! ../internals/whitespaces */
+
+/*! ../modules/es.array.iterator */
+
+/*! ../utils.js */
+
+/*! ../worker.js */
+
+/*! ./plugin/hyperlinks.js */
+
+/*! ./plugin/jspdf-plugin.js */
+
+/*! ./plugin/pagebreaks.js */
+
+/*! ./utils.js */
+
+/*! ./worker.js */
+
+/*! core-js/modules/es.array.concat.js */
+
+/*! core-js/modules/es.array.iterator.js */
+
+/*! core-js/modules/es.array.join.js */
+
+/*! core-js/modules/es.array.map.js */
+
+/*! core-js/modules/es.array.slice.js */
+
+/*! core-js/modules/es.function.name.js */
+
+/*! core-js/modules/es.number.constructor.js */
+
+/*! core-js/modules/es.object.assign.js */
+
+/*! core-js/modules/es.object.keys.js */
+
+/*! core-js/modules/es.object.to-string.js */
+
+/*! core-js/modules/es.regexp.to-string.js */
+
+/*! core-js/modules/es.string.iterator.js */
+
+/*! core-js/modules/es.string.link.js */
+
+/*! core-js/modules/es.symbol.description.js */
+
+/*! core-js/modules/es.symbol.iterator.js */
+
+/*! core-js/modules/es.symbol.js */
+
+/*! core-js/modules/web.dom-collections.for-each.js */
+
+/*! core-js/modules/web.dom-collections.iterator.js */
+
+/*! es6-promise */
+
+/*! html2canvas */
+
+/*! jspdf */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/*!**********************!*\
+        !*** ./src/index.js ***!
+        \**********************/
+
+/*!**********************!*\
+        !*** ./src/utils.js ***!
+        \**********************/
+
+/*!***********************!*\
+        !*** ./src/worker.js ***!
+        \***********************/
+
+/*!************************!*\
+        !*** external "jspdf" ***!
+        \************************/
+
+/*!******************************!*\
+        !*** external "html2canvas" ***!
+        \******************************/
+
+/*!**********************************!*\
+        !*** ./src/plugin/hyperlinks.js ***!
+        \**********************************/
+
+/*!**********************************!*\
+        !*** ./src/plugin/pagebreaks.js ***!
+        \**********************************/
+
+/*!************************************!*\
+        !*** ./src/plugin/jspdf-plugin.js ***!
+        \************************************/
+
+/*!***********************************************!*\
+        !*** ./node_modules/core-js/internals/has.js ***!
+        \***********************************************/
+
+/*!***********************************************!*\
+        !*** ./node_modules/core-js/internals/uid.js ***!
+        \***********************************************/
+
+/*!************************************************!*\
+        !*** ./node_modules/core-js/internals/html.js ***!
+        \************************************************/
+
+/*!************************************************!*\
+        !*** ./node_modules/core-js/internals/path.js ***!
+        \************************************************/
+
+/*!*************************************************!*\
+        !*** ./node_modules/core-js/internals/fails.js ***!
+        \*************************************************/
+
+/*!**************************************************!*\
+        !*** ./node_modules/core-js/internals/export.js ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./node_modules/core-js/internals/global.js ***!
+        \**************************************************/
+
+/*!**************************************************!*\
+        !*** ./node_modules/core-js/internals/shared.js ***!
+        \**************************************************/
+
+/*!***************************************************!*\
+        !*** ./node_modules/core-js/internals/classof.js ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** ./node_modules/core-js/internals/is-pure.js ***!
+        \***************************************************/
+
+/*!***************************************************!*\
+        !*** ./node_modules/core-js/modules/es.symbol.js ***!
+        \***************************************************/
+
+/*!****************************************************!*\
+        !*** ./node_modules/core-js/internals/is-array.js ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** ./node_modules/core-js/internals/own-keys.js ***!
+        \****************************************************/
+
+/*!****************************************************!*\
+        !*** ./node_modules/core-js/internals/redefine.js ***!
+        \****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/an-object.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/is-forced.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/is-object.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/is-symbol.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/iterators.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/to-length.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/to-object.js ***!
+        \*****************************************************/
+
+/*!*****************************************************!*\
+        !*** ./node_modules/core-js/internals/to-string.js ***!
+        \*****************************************************/
+
+/*!******************************************************!*\
+        !*** ./node_modules/core-js/internals/a-function.js ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./node_modules/core-js/internals/set-global.js ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./node_modules/core-js/internals/shared-key.js ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./node_modules/core-js/internals/to-integer.js ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./node_modules/core-js/modules/es.array.map.js ***!
+        \******************************************************/
+
+/*!******************************************************!*\
+        !*** ./node_modules/es6-promise/dist/es6-promise.js ***!
+        \******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/internals/classof-raw.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/internals/create-html.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/internals/descriptors.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/internals/hidden-keys.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/internals/object-keys.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/internals/string-trim.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/internals/whitespaces.js ***!
+        \*******************************************************/
+
+/*!*******************************************************!*\
+        !*** ./node_modules/core-js/modules/es.array.join.js ***!
+        \*******************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/core-js/internals/get-built-in.js ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/core-js/internals/regexp-flags.js ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/core-js/internals/shared-store.js ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/core-js/internals/to-primitive.js ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/core-js/modules/es.array.slice.js ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/core-js/modules/es.object.keys.js ***!
+        \********************************************************/
+
+/*!********************************************************!*\
+        !*** ./node_modules/core-js/modules/es.string.link.js ***!
+        \********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./node_modules/core-js/internals/dom-iterables.js ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./node_modules/core-js/internals/enum-bug-keys.js ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./node_modules/core-js/internals/native-symbol.js ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./node_modules/core-js/internals/object-assign.js ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./node_modules/core-js/internals/object-create.js ***!
+        \*********************************************************/
+
+/*!*********************************************************!*\
+        !*** ./node_modules/core-js/modules/es.array.concat.js ***!
+        \*********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/internals/array-for-each.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/internals/array-includes.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/internals/ie8-dom-define.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/internals/indexed-object.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/internals/inspect-source.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/internals/internal-state.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/internals/iterators-core.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/modules/es.function.name.js ***!
+        \**********************************************************/
+
+/*!**********************************************************!*\
+        !*** ./node_modules/core-js/modules/es.object.assign.js ***!
+        \**********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/core-js/internals/array-iteration.js ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/core-js/internals/create-property.js ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/core-js/internals/define-iterator.js ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/core-js/internals/native-weak-map.js ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/core-js/internals/to-property-key.js ***!
+        \***********************************************************/
+
+/*!***********************************************************!*\
+        !*** ./node_modules/core-js/modules/es.array.iterator.js ***!
+        \***********************************************************/
+
+/*!************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-to-string.js ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./node_modules/core-js/internals/string-multibyte.js ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./node_modules/core-js/modules/es.string.iterator.js ***!
+        \************************************************************/
+
+/*!************************************************************!*\
+        !*** ./node_modules/core-js/modules/es.symbol.iterator.js ***!
+        \************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/internals/engine-user-agent.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/internals/engine-v8-version.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/internals/set-to-string-tag.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/internals/to-absolute-index.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/internals/to-indexed-object.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/internals/use-symbol-as-uid.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/internals/well-known-symbol.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/modules/es.object.to-string.js ***!
+        \*************************************************************/
+
+/*!*************************************************************!*\
+        !*** ./node_modules/core-js/modules/es.regexp.to-string.js ***!
+        \*************************************************************/
+
+/*!**************************************************************!*\
+        !*** ./node_modules/core-js/internals/add-to-unscopables.js ***!
+        \**************************************************************/
+
+/*!**************************************************************!*\
+        !*** ./node_modules/core-js/internals/string-html-forced.js ***!
+        \**************************************************************/
+
+/*!***************************************************************!*\
+        !*** ./node_modules/core-js/internals/inherit-if-required.js ***!
+        \***************************************************************/
+
+/*!***************************************************************!*\
+        !*** ./node_modules/core-js/modules/es.number.constructor.js ***!
+        \***************************************************************/
+
+/*!***************************************************************!*\
+        !*** ./node_modules/core-js/modules/es.symbol.description.js ***!
+        \***************************************************************/
+
+/*!****************************************************************!*\
+        !*** ./node_modules/core-js/internals/a-possible-prototype.js ***!
+        \****************************************************************/
+
+/*!****************************************************************!*\
+        !*** ./node_modules/core-js/internals/array-species-create.js ***!
+        \****************************************************************/
+
+/*!****************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-keys-internal.js ***!
+        \****************************************************************/
+
+/*!*****************************************************************!*\
+        !*** ./node_modules/core-js/internals/function-bind-context.js ***!
+        \*****************************************************************/
+
+/*!*****************************************************************!*\
+        !*** ./node_modules/core-js/internals/ordinary-to-primitive.js ***!
+        \*****************************************************************/
+
+/*!*****************************************************************!*\
+        !*** ./node_modules/core-js/internals/to-string-tag-support.js ***!
+        \*****************************************************************/
+
+/*!******************************************************************!*\
+        !*** ./node_modules/core-js/internals/array-method-is-strict.js ***!
+        \******************************************************************/
+
+/*!******************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-define-property.js ***!
+        \******************************************************************/
+
+/*!*******************************************************************!*\
+        !*** ./node_modules/core-js/internals/document-create-element.js ***!
+        \*******************************************************************/
+
+/*!*******************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-get-prototype-of.js ***!
+        \*******************************************************************/
+
+/*!*******************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-set-prototype-of.js ***!
+        \*******************************************************************/
+
+/*!********************************************************************!*\
+        !*** ./node_modules/core-js/internals/correct-prototype-getter.js ***!
+        \********************************************************************/
+
+/*!********************************************************************!*\
+        !*** ./node_modules/core-js/internals/define-well-known-symbol.js ***!
+        \********************************************************************/
+
+/*!********************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-define-properties.js ***!
+        \********************************************************************/
+
+/*!********************************************************************!*\
+        !*** ./node_modules/core-js/internals/require-object-coercible.js ***!
+        \********************************************************************/
+
+/*!*********************************************************************!*\
+        !*** ./node_modules/core-js/internals/array-species-constructor.js ***!
+        \*********************************************************************/
+
+/*!*********************************************************************!*\
+        !*** ./node_modules/core-js/internals/well-known-symbol-wrapped.js ***!
+        \*********************************************************************/
+
+/*!**********************************************************************!*\
+        !*** ./node_modules/core-js/internals/create-property-descriptor.js ***!
+        \**********************************************************************/
+
+/*!**********************************************************************!*\
+        !*** ./node_modules/core-js/modules/web.dom-collections.for-each.js ***!
+        \**********************************************************************/
+
+/*!**********************************************************************!*\
+        !*** ./node_modules/core-js/modules/web.dom-collections.iterator.js ***!
+        \**********************************************************************/
+
+/*!***********************************************************************!*\
+        !*** ./node_modules/core-js/internals/copy-constructor-properties.js ***!
+        \***********************************************************************/
+
+/*!***********************************************************************!*\
+        !*** ./node_modules/core-js/internals/create-iterator-constructor.js ***!
+        \***********************************************************************/
+
+/*!*************************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-get-own-property-names.js ***!
+        \*************************************************************************/
+
+/*!*************************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-property-is-enumerable.js ***!
+        \*************************************************************************/
+
+/*!**************************************************************************!*\
+        !*** ./node_modules/core-js/internals/create-non-enumerable-property.js ***!
+        \**************************************************************************/
+
+/*!***************************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-get-own-property-symbols.js ***!
+        \***************************************************************************/
+
+/*!****************************************************************************!*\
+        !*** ./node_modules/core-js/internals/array-method-has-species-support.js ***!
+        \****************************************************************************/
+
+/*!******************************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-get-own-property-descriptor.js ***!
+        \******************************************************************************/
+
+/*!**********************************************************************************!*\
+        !*** ./node_modules/core-js/internals/object-get-own-property-names-external.js ***!
+        \**********************************************************************************/
+
+/**
+ * @license
+  Copyright (c) 2008, Adobe Systems Incorporated
+  All rights reserved.
+
+  Redistribution and use in source and binary forms, with or without 
+  modification, are permitted provided that the following conditions are
+  met:
+
+  * Redistributions of source code must retain the above copyright notice, 
+    this list of conditions and the following disclaimer.
+  
+  * Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the 
+    documentation and/or other materials provided with the distribution.
+  
+  * Neither the name of Adobe Systems Incorporated nor the names of its 
+    contributors may be used to endorse or promote products derived from 
+    this software without specific prior written permission.
+
+  THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
+  IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
+  THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+  PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR 
+  CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
+  EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+  PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+  PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+  LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+  NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+/**
+ * @license
+ *
+ * Copyright (c) 2014 James Robb, https://github.com/jamesbrobb
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ * ====================================================================
+ */
+
+/**
+ * @license
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * (c) Dean McNamee <dean@gmail.com>, 2013.
+ *
+ * https://github.com/deanm/omggif
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to
+ * deal in the Software without restriction, including without limitation the
+ * rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+ * sell copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+ * FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+ * IN THE SOFTWARE.
+ *
+ * omggif is a JavaScript implementation of a GIF 89a encoder and decoder,
+ * including animation and compression.  It does not rely on any specific
+ * underlying system, so should run in the browser, Node, or Plask.
+ */
+
+/**
+ * @license
+ * Copyright (c) 2014 Steven Spungin (TwelveTone LLC)  steven@twelvetone.tv
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * Copyright (c) 2017 Aras Abbasi
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * Copyright (c) 2018 Aras Abbasi
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * Copyright (c) 2019 Aras Abbasi
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * FPDF is released under a permissive license: there is no usage restriction.
+ * You may embed it freely in your application (commercial or not), with or
+ * without modifications.
+ *
+ * Reference: http://www.fpdf.org/en/script/script37.php
+ */
+
+/**
+ * @license
+ * Joseph Myers does not specify a particular license for his work.
+ *
+ * Author: Joseph Myers
+ * Accessed from: http://www.myersdaily.org/joseph/javascript/md5.js
+ *
+ * Modified by: Owen Leong
+ */
+
+/**
+ * @license
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ * Author: Owen Leong (@owenl131)
+ * Date: 15 Oct 2020
+ * References:
+ * https://www.cs.cmu.edu/~dst/Adobe/Gallery/anon21jul01-pdf-encryption.txt
+ * https://github.com/foliojs/pdfkit/blob/master/lib/security.js
+ * http://www.fpdf.org/en/script/script37.php
+ */
+
+/**
+ * @license
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * Unicode Bidi Engine based on the work of Alex Shensis (@asthensis)
+ * MIT License
+ */
+
+/**
+ * @license
+ * jsPDF fileloading PlugIn
+ * Copyright (c) 2018 Aras Abbasi (aras.abbasi@gmail.com)
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * jsPDF filters PlugIn
+ * Copyright (c) 2014 Aras Abbasi
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license
+ * jsPDF virtual FileSystem functionality
+ *
+ * Licensed under the MIT License.
+ * http://opensource.org/licenses/mit-license
+ */
+
+/**
+ * @license React
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-is.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @license React
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/**
+ * @remix-run/router v1.19.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * A class to parse color values
+ * @author Stoyan Stefanov <sstoo@gmail.com>
+ * {@link   http://www.phpied.com/rgb-color-parser-in-javascript/}
+ * @license Use it if you like it
+ */
+
+/**
+ * React Router v6.26.2
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/** ====================================================================
+ * @license
+ * jsPDF XMP metadata plugin
+ * Copyright (c) 2016 Jussi Utunen, u-jussi@suomi24.fi
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ * ====================================================================
+ */
+
+/** @license
+         * Copyright (c) 2017 Dominik Homberger
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+        https://webpjs.appspot.com
+        WebPRiffParser dominikhlbg@gmail.com
+        */
+
+/** @license
+ *
+ * jsPDF - PDF Document creation from JavaScript
+ * Version 2.5.2 Built on 2024-09-17T13:29:57.859Z
+ *                      CommitID 00000000
+ *
+ * Copyright (c) 2010-2021 James Hall <james@parall.ax>, https://github.com/MrRio/jsPDF
+ *               2015-2021 yWorks GmbH, http://www.yworks.com
+ *               2015-2021 Lukas Holländer <lukas.hollaender@yworks.com>, https://github.com/HackbrettXXX
+ *               2016-2018 Aras Abbasi <aras.abbasi@gmail.com>
+ *               2010 Aaron Spike, https://github.com/acspike
+ *               2012 Willow Systems Corporation, https://github.com/willowsystems
+ *               2012 Pablo Hess, https://github.com/pablohess
+ *               2012 Florian Jenett, https://github.com/fjenett
+ *               2013 Warren Weckesser, https://github.com/warrenweckesser
+ *               2013 Youssef Beddad, https://github.com/lifof
+ *               2013 Lee Driscoll, https://github.com/lsdriscoll
+ *               2013 Stefan Slonevskiy, https://github.com/stefslon
+ *               2013 Jeremy Morel, https://github.com/jmorel
+ *               2013 Christoph Hartmann, https://github.com/chris-rock
+ *               2014 Juan Pablo Gaviria, https://github.com/juanpgaviria
+ *               2014 James Makes, https://github.com/dollaruw
+ *               2014 Diego Casorran, https://github.com/diegocr
+ *               2014 Steven Spungin, https://github.com/Flamenco
+ *               2014 Kenneth Glassey, https://github.com/Gavvers
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * Contributor(s):
+ *    siefkenj, ahwolf, rickygu, Midnith, saintclair, eaparango,
+ *    kim3er, mfo, alnorth, Flamenco
+ */
+
+/** @license
+ * Copyright (c) 2012 Willow Systems Corporation, https://github.com/willowsystems
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be
+ * included in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ * ====================================================================
+ */
+
+/**![amazon](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTgyNSA3NjguOWMtMy4zLS45LTcuMy0uNC0xMS45IDEuMy02MS42IDI4LjItMTIxLjUgNDguMy0xNzkuNyA2MC4yQzUwNy43IDg1NiAzODUuMiA4NDIuNiAyNjYgNzkwLjNjLTMzLjEtMTQuNi03OS4xLTM5LjItMTM4LTc0YTkuMzYgOS4zNiAwIDAwLTUuMy0yYy0yLS4xLTMuNy4xLTUuMy45LTEuNi44LTIuOCAxLjgtMy43IDMuMS0uOSAxLjMtMS4xIDMuMS0uNCA1LjQuNiAyLjIgMi4xIDQuNyA0LjYgNy40IDEwLjQgMTIuMiAyMy4zIDI1LjIgMzguNiAzOXMzNS42IDI5LjQgNjAuOSA0Ni44YzI1LjMgMTcuNCA1MS44IDMyLjkgNzkuMyA0Ni40IDI3LjYgMTMuNSA1OS42IDI0LjkgOTYuMSAzNC4xczczIDEzLjggMTA5LjQgMTMuOGMzNi4yIDAgNzEuNC0zLjcgMTA1LjUtMTAuOSAzNC4yLTcuMyA2My0xNS45IDg2LjUtMjUuOSAyMy40LTkuOSA0NS0yMSA2NC44LTMzIDE5LjgtMTIgMzQuNC0yMi4yIDQzLjktMzAuMyA5LjUtOC4yIDE2LjMtMTQuNiAyMC4yLTE5LjQgNC42LTUuNyA2LjktMTAuNiA2LjktMTQuOS4xLTQuNS0xLjctNy4xLTUtNy45ek01MjcuNCAzNDguMWMtMTUuMiAxLjMtMzMuNSA0LjEtNTUgOC4zLTIxLjUgNC4xLTQxLjQgOS4zLTU5LjggMTUuNHMtMzcuMiAxNC42LTU2LjMgMjUuNGMtMTkuMiAxMC44LTM1LjUgMjMuMi00OSAzN3MtMjQuNSAzMS4xLTMzLjEgNTJjLTguNiAyMC44LTEyLjkgNDMuNy0xMi45IDY4LjcgMCAyNy4xIDQuNyA1MS4yIDE0LjMgNzIuNSA5LjUgMjEuMyAyMi4yIDM4IDM4LjIgNTAuNCAxNS45IDEyLjQgMzQgMjIuMSA1NCAyOS4yIDIwIDcuMSA0MS4yIDEwLjMgNjMuMiA5LjQgMjItLjkgNDMuNS00LjMgNjQuNC0xMC4zIDIwLjgtNS45IDQwLjQtMTUuNCA1OC42LTI4LjMgMTguMi0xMi45IDMzLjEtMjguMiA0NC44LTQ1LjcgNC4zIDYuNiA4LjEgMTEuNSAxMS41IDE0LjdsOC43IDguOWM1LjggNS45IDE0LjcgMTQuNiAyNi43IDI2LjEgMTEuOSAxMS41IDI0LjEgMjIuNyAzNi4zIDMzLjdsMTA0LjQtOTkuOS02LTQuOWMtNC4zLTMuMy05LjQtOC0xNS4yLTE0LjMtNS44LTYuMi0xMS42LTEzLjEtMTcuMi0yMC41LTUuNy03LjQtMTAuNi0xNi4xLTE0LjctMjUuOS00LjEtOS44LTYuMi0xOS4zLTYuMi0yOC41VjI1OC43YzAtMTAuMS0xLjktMjEtNS43LTMyLjgtMy45LTExLjctMTAuNy0yNC41LTIwLjctMzguMy0xMC0xMy44LTIyLjQtMjYuMi0zNy4yLTM3LTE0LjktMTAuOC0zNC43LTIwLTU5LjYtMjcuNC0yNC44LTcuNC01Mi42LTExLjEtODMuMi0xMS4xLTMxLjMgMC02MC40IDMuNy04Ny42IDEwLjktMjcuMSA3LjMtNTAuMyAxNy02OS43IDI5LjItMTkuMyAxMi4yLTM1LjkgMjYuMy00OS43IDQyLjQtMTMuOCAxNi4xLTI0LjEgMzIuOS0zMC44IDUwLjQtNi43IDE3LjUtMTAuMSAzNS4yLTEwLjEgNTMuMUw0MDggMzEwYzUuNS0xNi40IDEyLjktMzAuNiAyMi00Mi44IDkuMi0xMi4yIDE3LjktMjEgMjUuOC0yNi41IDgtNS41IDE2LjYtOS45IDI1LjctMTMuMiA5LjItMy4zIDE1LjQtNSAxOC42LTUuNCAzLjItLjMgNS43LS40IDcuNi0uNCAyNi43IDAgNDUuMiA3LjkgNTUuNiAyMy42IDYuNSA5LjUgOS43IDIzLjkgOS43IDQzLjN2NTYuNmMtMTUuMi42LTMwLjQgMS42LTQ1LjYgMi45ek01NzMuMSA1MDBjMCAxNi42LTIuMiAzMS43LTYuNSA0NS05LjIgMjkuMS0yNi43IDQ3LjQtNTIuNCA1NC44LTIyLjQgNi42LTQzLjcgMy4zLTYzLjktOS44LTIxLjUtMTQtMzIuMi0zMy44LTMyLjItNTkuMyAwLTE5LjkgNS0zNi45IDE1LTUxLjEgMTAtMTQuMSAyMy4zLTI0LjcgNDAtMzEuN3MzMy0xMiA0OS0xNC45YzE1LjktMyAzMy00LjggNTEtNS40VjUwMHptMzM1LjIgMjE4LjljLTQuMy01LjQtMTUuOS04LjktMzQuOS0xMC43LTE5LTEuOC0zNS41LTEuNy00OS43LjQtMTUuMyAxLjgtMzEuMSA2LjItNDcuMyAxMy40LTE2LjMgNy4xLTIzLjQgMTMuMS0yMS42IDE3LjhsLjcgMS4zLjkuNyAxLjQuMmg0LjZjLjggMCAxLjgtLjEgMy4yLS4yIDEuNC0uMSAyLjctLjMgMy45LS40IDEuMi0uMSAyLjktLjMgNS4xLS40IDIuMS0uMSA0LjEtLjQgNi0uNy4zIDAgMy43LS4zIDEwLjMtLjkgNi42LS42IDExLjQtMSAxNC4zLTEuMyAyLjktLjMgNy44LS42IDE0LjUtLjkgNi43LS4zIDEyLjEtLjMgMTYuMSAwIDQgLjMgOC41LjcgMTMuNiAxLjEgNS4xLjQgOS4yIDEuMyAxMi40IDIuNyAzLjIgMS4zIDUuNiAzIDcuMSA1LjEgNS4yIDYuNiA0LjIgMjEuMi0zIDQzLjlzLTE0IDQwLjgtMjAuNCA1NC4yYy0yLjggNS43LTIuOCA5LjIgMCAxMC43czYuNy4xIDExLjktNGMxNS42LTEyLjIgMjguNi0zMC42IDM5LjEtNTUuMyA2LjEtMTQuNiAxMC41LTI5LjggMTMuMS00NS43IDIuNC0xNS45IDItMjYuMi0xLjMtMzF6IiAvPjwvc3ZnPg==) */
+
+/**![appstore](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQ2NCAxNDRIMTYwYy04LjggMC0xNiA3LjItMTYgMTZ2MzA0YzAgOC44IDcuMiAxNiAxNiAxNmgzMDRjOC44IDAgMTYtNy4yIDE2LTE2VjE2MGMwLTguOC03LjItMTYtMTYtMTZ6bS01MiAyNjhIMjEyVjIxMmgyMDB2MjAwem00NTItMjY4SDU2MGMtOC44IDAtMTYgNy4yLTE2IDE2djMwNGMwIDguOCA3LjIgMTYgMTYgMTZoMzA0YzguOCAwIDE2LTcuMiAxNi0xNlYxNjBjMC04LjgtNy4yLTE2LTE2LTE2em0tNTIgMjY4SDYxMlYyMTJoMjAwdjIwMHpNNDY0IDU0NEgxNjBjLTguOCAwLTE2IDcuMi0xNiAxNnYzMDRjMCA4LjggNy4yIDE2IDE2IDE2aDMwNGM4LjggMCAxNi03LjIgMTYtMTZWNTYwYzAtOC44LTcuMi0xNi0xNi0xNnptLTUyIDI2OEgyMTJWNjEyaDIwMHYyMDB6bTQ1Mi0yNjhINTYwYy04LjggMC0xNiA3LjItMTYgMTZ2MzA0YzAgOC44IDcuMiAxNiAxNiAxNmgzMDRjOC44IDAgMTYtNy4yIDE2LTE2VjU2MGMwLTguOC03LjItMTYtMTYtMTZ6bS01MiAyNjhINjEyVjYxMmgyMDB2MjAweiIgLz48L3N2Zz4=) */
+
+/**![bars](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkxMiAxOTJIMzI4Yy00LjQgMC04IDMuNi04IDh2NTZjMCA0LjQgMy42IDggOCA4aDU4NGM0LjQgMCA4LTMuNiA4LTh2LTU2YzAtNC40LTMuNi04LTgtOHptMCAyODRIMzI4Yy00LjQgMC04IDMuNi04IDh2NTZjMCA0LjQgMy42IDggOCA4aDU4NGM0LjQgMCA4LTMuNiA4LTh2LTU2YzAtNC40LTMuNi04LTgtOHptMCAyODRIMzI4Yy00LjQgMC04IDMuNi04IDh2NTZjMCA0LjQgMy42IDggOCA4aDU4NGM0LjQgMCA4LTMuNiA4LTh2LTU2YzAtNC40LTMuNi04LTgtOHpNMTA0IDIyOGE1NiA1NiAwIDEwMTEyIDAgNTYgNTYgMCAxMC0xMTIgMHptMCAyODRhNTYgNTYgMCAxMDExMiAwIDU2IDU2IDAgMTAtMTEyIDB6bTAgMjg0YTU2IDU2IDAgMTAxMTIgMCA1NiA1NiAwIDEwLTExMiAweiIgLz48L3N2Zz4=) */
+
+/**![check-circle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUxMiA2NEMyNjQuNiA2NCA2NCAyNjQuNiA2NCA1MTJzMjAwLjYgNDQ4IDQ0OCA0NDggNDQ4LTIwMC42IDQ0OC00NDhTNzU5LjQgNjQgNTEyIDY0em0xOTMuNSAzMDEuN2wtMjEwLjYgMjkyYTMxLjggMzEuOCAwIDAxLTUxLjcgMEwzMTguNSA0ODQuOWMtMy44LTUuMyAwLTEyLjcgNi41LTEyLjdoNDYuOWMxMC4yIDAgMTkuOSA0LjkgMjUuOSAxMy4zbDcxLjIgOTguOCAxNTcuMi0yMThjNi04LjMgMTUuNi0xMy4zIDI1LjktMTMuM0g2OTljNi41IDAgMTAuMyA3LjQgNi41IDEyLjd6IiAvPjwvc3ZnPg==) */
+
+/**![check](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkxMiAxOTBoLTY5LjljLTkuOCAwLTE5LjEgNC41LTI1LjEgMTIuMkw0MDQuNyA3MjQuNSAyMDcgNDc0YTMyIDMyIDAgMDAtMjUuMS0xMi4ySDExMmMtNi43IDAtMTAuNCA3LjctNi4zIDEyLjlsMjczLjkgMzQ3YzEyLjggMTYuMiAzNy40IDE2LjIgNTAuMyAwbDQ4OC40LTYxOC45YzQuMS01LjEuNC0xMi44LTYuMy0xMi44eiIgLz48L3N2Zz4=) */
+
+/**![close-circle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdmlld0JveD0iNjQgNjQgODk2IDg5NiIgZm9jdXNhYmxlPSJmYWxzZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNTEyIDY0YzI0Ny40IDAgNDQ4IDIwMC42IDQ0OCA0NDhTNzU5LjQgOTYwIDUxMiA5NjAgNjQgNzU5LjQgNjQgNTEyIDI2NC42IDY0IDUxMiA2NHptMTI3Ljk4IDI3NC44MmgtLjA0bC0uMDguMDZMNTEyIDQ2Ni43NSAzODQuMTQgMzM4Ljg4Yy0uMDQtLjA1LS4wNi0uMDYtLjA4LS4wNmEuMTIuMTIgMCAwMC0uMDcgMGMtLjAzIDAtLjA1LjAxLS4wOS4wNWwtNDUuMDIgNDUuMDJhLjIuMiAwIDAwLS4wNS4wOS4xMi4xMiAwIDAwMCAuMDd2LjAyYS4yNy4yNyAwIDAwLjA2LjA2TDQ2Ni43NSA1MTIgMzM4Ljg4IDYzOS44NmMtLjA1LjA0LS4wNi4wNi0uMDYuMDhhLjEyLjEyIDAgMDAwIC4wN2MwIC4wMy4wMS4wNS4wNS4wOWw0NS4wMiA0NS4wMmEuMi4yIDAgMDAuMDkuMDUuMTIuMTIgMCAwMC4wNyAwYy4wMiAwIC4wNC0uMDEuMDgtLjA1TDUxMiA1NTcuMjVsMTI3Ljg2IDEyNy44N2MuMDQuMDQuMDYuMDUuMDguMDVhLjEyLjEyIDAgMDAuMDcgMGMuMDMgMCAuMDUtLjAxLjA5LS4wNWw0NS4wMi00NS4wMmEuMi4yIDAgMDAuMDUtLjA5LjEyLjEyIDAgMDAwLS4wN3YtLjAyYS4yNy4yNyAwIDAwLS4wNS0uMDZMNTU3LjI1IDUxMmwxMjcuODctMTI3Ljg2Yy4wNC0uMDQuMDUtLjA2LjA1LS4wOGEuMTIuMTIgMCAwMDAtLjA3YzAtLjAzLS4wMS0uMDUtLjA1LS4wOWwtNDUuMDItNDUuMDJhLjIuMiAwIDAwLS4wOS0uMDUuMTIuMTIgMCAwMC0uMDcgMHoiIC8+PC9zdmc+) */
+
+/**![close](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIGZpbGwtcnVsZT0iZXZlbm9kZCIgdmlld0JveD0iNjQgNjQgODk2IDg5NiIgZm9jdXNhYmxlPSJmYWxzZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNNzk5Ljg2IDE2Ni4zMWMuMDIgMCAuMDQuMDIuMDguMDZsNTcuNjkgNTcuN2MuMDQuMDMuMDUuMDUuMDYuMDhhLjEyLjEyIDAgMDEwIC4wNmMwIC4wMy0uMDIuMDUtLjA2LjA5TDU2OS45MyA1MTJsMjg3LjcgMjg3LjdjLjA0LjA0LjA1LjA2LjA2LjA5YS4xMi4xMiAwIDAxMCAuMDdjMCAuMDItLjAyLjA0LS4wNi4wOGwtNTcuNyA1Ny42OWMtLjAzLjA0LS4wNS4wNS0uMDcuMDZhLjEyLjEyIDAgMDEtLjA3IDBjLS4wMyAwLS4wNS0uMDItLjA5LS4wNkw1MTIgNTY5LjkzbC0yODcuNyAyODcuN2MtLjA0LjA0LS4wNi4wNS0uMDkuMDZhLjEyLjEyIDAgMDEtLjA3IDBjLS4wMiAwLS4wNC0uMDItLjA4LS4wNmwtNTcuNjktNTcuN2MtLjA0LS4wMy0uMDUtLjA1LS4wNi0uMDdhLjEyLjEyIDAgMDEwLS4wN2MwLS4wMy4wMi0uMDUuMDYtLjA5TDQ1NC4wNyA1MTJsLTI4Ny43LTI4Ny43Yy0uMDQtLjA0LS4wNS0uMDYtLjA2LS4wOWEuMTIuMTIgMCAwMTAtLjA3YzAtLjAyLjAyLS4wNC4wNi0uMDhsNTcuNy01Ny42OWMuMDMtLjA0LjA1LS4wNS4wNy0uMDZhLjEyLjEyIDAgMDEuMDcgMGMuMDMgMCAuMDUuMDIuMDkuMDZMNTEyIDQ1NC4wN2wyODcuNy0yODcuN2MuMDQtLjA0LjA2LS4wNS4wOS0uMDZhLjEyLjEyIDAgMDEuMDcgMHoiIC8+PC9zdmc+) */
+
+/**![copy](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTgzMiA2NEgyOTZjLTQuNCAwLTggMy42LTggOHY1NmMwIDQuNCAzLjYgOCA4IDhoNDk2djY4OGMwIDQuNCAzLjYgOCA4IDhoNTZjNC40IDAgOC0zLjYgOC04Vjk2YzAtMTcuNy0xNC4zLTMyLTMyLTMyek03MDQgMTkySDE5MmMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ2NTMwLjdjMCA4LjUgMy40IDE2LjYgOS40IDIyLjZsMTczLjMgMTczLjNjMi4yIDIuMiA0LjcgNCA3LjQgNS41djEuOWg0LjJjMy41IDEuMyA3LjIgMiAxMSAySDcwNGMxNy43IDAgMzItMTQuMyAzMi0zMlYyMjRjMC0xNy43LTE0LjMtMzItMzItMzJ6TTM1MCA4NTYuMkwyNjMuOSA3NzBIMzUwdjg2LjJ6TTY2NCA4ODhINDE0Vjc0NmMwLTIyLjEtMTcuOS00MC00MC00MEgyMzJWMjY0aDQzMnY2MjR6IiAvPjwvc3ZnPg==) */
+
+/**![down](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTg4NCAyNTZoLTc1Yy01LjEgMC05LjkgMi41LTEyLjkgNi42TDUxMiA2NTQuMiAyMjcuOSAyNjIuNmMtMy00LjEtNy44LTYuNi0xMi45LTYuNmgtNzVjLTYuNSAwLTEwLjMgNy40LTYuNSAxMi43bDM1Mi42IDQ4Ni4xYzEyLjggMTcuNiAzOSAxNy42IDUxLjcgMGwzNTIuNi00ODYuMWMzLjktNS4zLjEtMTIuNy02LjQtMTIuN3oiIC8+PC9zdmc+) */
+
+/**![download](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUwNS43IDY2MWE4IDggMCAwMDEyLjYgMGwxMTItMTQxLjdjNC4xLTUuMi40LTEyLjktNi4zLTEyLjloLTc0LjFWMTY4YzAtNC40LTMuNi04LTgtOGgtNjBjLTQuNCAwLTggMy42LTggOHYzMzguM0g0MDBjLTYuNyAwLTEwLjQgNy43LTYuMyAxMi45bDExMiAxNDEuOHpNODc4IDYyNmgtNjBjLTQuNCAwLTggMy42LTggOHYxNTRIMjE0VjYzNGMwLTQuNC0zLjYtOC04LThoLTYwYy00LjQgMC04IDMuNi04IDh2MTk4YzAgMTcuNyAxNC4zIDMyIDMyIDMyaDY4NGMxNy43IDAgMzItMTQuMyAzMi0zMlY2MzRjMC00LjQtMy42LTgtOC04eiIgLz48L3N2Zz4=) */
+
+/**![edit](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTI1Ny43IDc1MmMyIDAgNC0uMiA2LS41TDQzMS45IDcyMmMyLS40IDMuOS0xLjMgNS4zLTIuOGw0MjMuOS00MjMuOWE5Ljk2IDkuOTYgMCAwMDAtMTQuMUw2OTQuOSAxMTQuOWMtMS45LTEuOS00LjQtMi45LTcuMS0yLjlzLTUuMiAxLTcuMSAyLjlMMjU2LjggNTM4LjhjLTEuNSAxLjUtMi40IDMuMy0yLjggNS4zbC0yOS41IDE2OC4yYTMzLjUgMzMuNSAwIDAwOS40IDI5LjhjNi42IDYuNCAxNC45IDkuOSAyMy44IDkuOXptNjcuNC0xNzQuNEw2ODcuOCAyMTVsNzMuMyA3My4zLTM2Mi43IDM2Mi42LTg4LjkgMTUuNyAxNS42LTg5ek04ODAgODM2SDE0NGMtMTcuNyAwLTMyIDE0LjMtMzIgMzJ2MzZjMCA0LjQgMy42IDggOCA4aDc4NGM0LjQgMCA4LTMuNiA4LTh2LTM2YzAtMTcuNy0xNC4zLTMyLTMyLTMyeiIgLz48L3N2Zz4=) */
+
+/**![ellipsis](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTE3NiA1MTFhNTYgNTYgMCAxMDExMiAwIDU2IDU2IDAgMTAtMTEyIDB6bTI4MCAwYTU2IDU2IDAgMTAxMTIgMCA1NiA1NiAwIDEwLTExMiAwem0yODAgMGE1NiA1NiAwIDEwMTEyIDAgNTYgNTYgMCAxMC0xMTIgMHoiIC8+PC9zdmc+) */
+
+/**![enter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTg2NCAxNzBoLTYwYy00LjQgMC04IDMuNi04IDh2NTE4SDMxMHYtNzNjMC02LjctNy44LTEwLjUtMTMtNi4zbC0xNDEuOSAxMTJhOCA4IDAgMDAwIDEyLjZsMTQxLjkgMTEyYzUuMyA0LjIgMTMgLjQgMTMtNi4zdi03NWg0OThjMzUuMyAwIDY0LTI4LjcgNjQtNjRWMTc4YzAtNC40LTMuNi04LTgtOHoiIC8+PC9zdmc+) */
+
+/**![exclamation-circle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUxMiA2NEMyNjQuNiA2NCA2NCAyNjQuNiA2NCA1MTJzMjAwLjYgNDQ4IDQ0OCA0NDggNDQ4LTIwMC42IDQ0OC00NDhTNzU5LjQgNjQgNTEyIDY0em0tMzIgMjMyYzAtNC40IDMuNi04IDgtOGg0OGM0LjQgMCA4IDMuNiA4IDh2MjcyYzAgNC40LTMuNiA4LTggOGgtNDhjLTQuNCAwLTgtMy42LTgtOFYyOTZ6bTMyIDQ0MGE0OC4wMSA0OC4wMSAwIDAxMC05NiA0OC4wMSA0OC4wMSAwIDAxMCA5NnoiIC8+PC9zdmc+) */
+
+/**![eye-invisible](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTk0Mi4yIDQ4Ni4yUTg4OS40NyAzNzUuMTEgODE2LjcgMzA1bC01MC44OCA1MC44OEM4MDcuMzEgMzk1LjUzIDg0My40NSA0NDcuNCA4NzQuNyA1MTIgNzkxLjUgNjg0LjIgNjczLjQgNzY2IDUxMiA3NjZxLTcyLjY3IDAtMTMzLjg3LTIyLjM4TDMyMyA3OTguNzVRNDA4IDgzOCA1MTIgODM4cTI4OC4zIDAgNDMwLjItMzAwLjNhNjAuMjkgNjAuMjkgMCAwMDAtNTEuNXptLTYzLjU3LTMyMC42NEw4MzYgMTIyLjg4YTggOCAwIDAwLTExLjMyIDBMNzE1LjMxIDIzMi4yUTYyNC44NiAxODYgNTEyIDE4NnEtMjg4LjMgMC00MzAuMiAzMDAuM2E2MC4zIDYwLjMgMCAwMDAgNTEuNXE1Ni42OSAxMTkuNCAxMzYuNSAxOTEuNDFMMTEyLjQ4IDgzNWE4IDggMCAwMDAgMTEuMzFMMTU1LjE3IDg4OWE4IDggMCAwMDExLjMxIDBsNzEyLjE1LTcxMi4xMmE4IDggMCAwMDAtMTEuMzJ6TTE0OS4zIDUxMkMyMzIuNiAzMzkuOCAzNTAuNyAyNTggNTEyIDI1OGM1NC41NCAwIDEwNC4xMyA5LjM2IDE0OS4xMiAyOC4zOWwtNzAuMyA3MC4zYTE3NiAxNzYgMCAwMC0yMzguMTMgMjM4LjEzbC04My40MiA4My40MkMyMjMuMSA2MzcuNDkgMTgzLjMgNTgyLjI4IDE0OS4zIDUxMnptMjQ2LjcgMGExMTIuMTEgMTEyLjExIDAgMDExNDYuMi0xMDYuNjlMNDAxLjMxIDU0Ni4yQTExMiAxMTIgMCAwMTM5NiA1MTJ6IiAvPjxwYXRoIGQ9Ik01MDggNjI0Yy0zLjQ2IDAtNi44Ny0uMTYtMTAuMjUtLjQ3bC01Mi44MiA1Mi44MmExNzYuMDkgMTc2LjA5IDAgMDAyMjcuNDItMjI3LjQybC01Mi44MiA1Mi44MmMuMzEgMy4zOC40NyA2Ljc5LjQ3IDEwLjI1YTExMS45NCAxMTEuOTQgMCAwMS0xMTIgMTEyeiIgLz48L3N2Zz4=) */
+
+/**![eye](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTk0Mi4yIDQ4Ni4yQzg0Ny40IDI4Ni41IDcwNC4xIDE4NiA1MTIgMTg2Yy0xOTIuMiAwLTMzNS40IDEwMC41LTQzMC4yIDMwMC4zYTYwLjMgNjAuMyAwIDAwMCA1MS41QzE3Ni42IDczNy41IDMxOS45IDgzOCA1MTIgODM4YzE5Mi4yIDAgMzM1LjQtMTAwLjUgNDMwLjItMzAwLjMgNy43LTE2LjIgNy43LTM1IDAtNTEuNXpNNTEyIDc2NmMtMTYxLjMgMC0yNzkuNC04MS44LTM2Mi43LTI1NEMyMzIuNiAzMzkuOCAzNTAuNyAyNTggNTEyIDI1OGMxNjEuMyAwIDI3OS40IDgxLjggMzYyLjcgMjU0Qzc5MS41IDY4NC4yIDY3My40IDc2NiA1MTIgNzY2em0tNC00MzBjLTk3LjIgMC0xNzYgNzguOC0xNzYgMTc2czc4LjggMTc2IDE3NiAxNzYgMTc2LTc4LjggMTc2LTE3Ni03OC44LTE3Ni0xNzYtMTc2em0wIDI4OGMtNjEuOSAwLTExMi01MC4xLTExMi0xMTJzNTAuMS0xMTIgMTEyLTExMiAxMTIgNTAuMSAxMTIgMTEyLTUwLjEgMTEyLTExMiAxMTJ6IiAvPjwvc3ZnPg==) */
+
+/**![facebook](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTg4MCAxMTJIMTQ0Yy0xNy43IDAtMzIgMTQuMy0zMiAzMnY3MzZjMCAxNy43IDE0LjMgMzIgMzIgMzJoNzM2YzE3LjcgMCAzMi0xNC4zIDMyLTMyVjE0NGMwLTE3LjctMTQuMy0zMi0zMi0zMnptLTMyIDczNkg2NjMuOVY2MDIuMmgxMDRsMTUuNi0xMjAuN0g2NjMuOXYtNzcuMWMwLTM1IDkuNy01OC44IDU5LjgtNTguOGg2My45di0xMDhjLTExLjEtMS41LTQ5LTQuOC05My4yLTQuOC05Mi4yIDAtMTU1LjMgNTYuMy0xNTUuMyAxNTkuNnY4OUg0MzQuOXYxMjAuN2gxMDQuM1Y4NDhIMTc2VjE3Nmg2NzJ2NjcyeiIgLz48L3N2Zz4=) */
+
+/**![google-plus](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTg3OS41IDQ3MC40Yy0uMy0yNy0uNC01NC4yLS41LTgxLjNoLTgwLjhjLS4zIDI3LS41IDU0LjEtLjcgODEuMy0yNy4yLjEtNTQuMi4zLTgxLjIuNnY4MC45YzI3IC4zIDU0LjIuNSA4MS4yLjguMyAyNyAuMyA1NC4xLjUgODEuMWg4MC45Yy4xLTI3IC4zLTU0LjEuNS04MS4zIDI3LjItLjMgNTQuMi0uNCA4MS4yLS43di04MC45Yy0yNi45LS4yLTU0LjEtLjItODEuMS0uNXptLTUzMCAuNGMtLjEgMzIuMyAwIDY0LjcuMSA5NyA1NC4yIDEuOCAxMDguNSAxIDE2Mi43IDEuOC0yMy45IDEyMC4zLTE4Ny40IDE1OS4zLTI3My45IDgwLjctODktNjguOS04NC44LTIyMCA3LjctMjg0IDY0LjctNTEuNiAxNTYuNi0zOC45IDIyMS4zIDUuOCAyNS40LTIzLjUgNDkuMi00OC43IDcyLjEtNzQuNy01My44LTQyLjktMTE5LjgtNzMuNS0xOTAtNzAuMy0xNDYuNi00LjktMjgxLjMgMTIzLjUtMjgzLjcgMjcwLjItOS40IDExOS45IDY5LjQgMjM3LjQgMTgwLjYgMjc5LjggMTEwLjggNDIuNyAyNTIuOSAxMy42IDMyMy43LTg2IDQ2LjctNjIuOSA1Ni44LTE0My45IDUxLjMtMjIwLTkwLjctLjctMTgxLjMtLjYtMjcxLjktLjN6IiAvPjwvc3ZnPg==) */
+
+/**![instagram](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUxMiAzMDYuOWMtMTEzLjUgMC0yMDUuMSA5MS42LTIwNS4xIDIwNS4xUzM5OC41IDcxNy4xIDUxMiA3MTcuMSA3MTcuMSA2MjUuNSA3MTcuMSA1MTIgNjI1LjUgMzA2LjkgNTEyIDMwNi45em0wIDMzOC40Yy03My40IDAtMTMzLjMtNTkuOS0xMzMuMy0xMzMuM1M0MzguNiAzNzguNyA1MTIgMzc4LjcgNjQ1LjMgNDM4LjYgNjQ1LjMgNTEyIDU4NS40IDY0NS4zIDUxMiA2NDUuM3ptMjEzLjUtMzk0LjZjLTI2LjUgMC00Ny45IDIxLjQtNDcuOSA0Ny45czIxLjQgNDcuOSA0Ny45IDQ3LjkgNDcuOS0yMS4zIDQ3LjktNDcuOWE0Ny44NCA0Ny44NCAwIDAwLTQ3LjktNDcuOXpNOTExLjggNTEyYzAtNTUuMi41LTEwOS45LTIuNi0xNjUtMy4xLTY0LTE3LjctMTIwLjgtNjQuNS0xNjcuNi00Ni45LTQ2LjktMTAzLjYtNjEuNC0xNjcuNi02NC41LTU1LjItMy4xLTEwOS45LTIuNi0xNjUtMi42LTU1LjIgMC0xMDkuOS0uNS0xNjUgMi42LTY0IDMuMS0xMjAuOCAxNy43LTE2Ny42IDY0LjVDMTMyLjYgMjI2LjMgMTE4LjEgMjgzIDExNSAzNDdjLTMuMSA1NS4yLTIuNiAxMDkuOS0yLjYgMTY1cy0uNSAxMDkuOSAyLjYgMTY1YzMuMSA2NCAxNy43IDEyMC44IDY0LjUgMTY3LjYgNDYuOSA0Ni45IDEwMy42IDYxLjQgMTY3LjYgNjQuNSA1NS4yIDMuMSAxMDkuOSAyLjYgMTY1IDIuNiA1NS4yIDAgMTA5LjkuNSAxNjUtMi42IDY0LTMuMSAxMjAuOC0xNy43IDE2Ny42LTY0LjUgNDYuOS00Ni45IDYxLjQtMTAzLjYgNjQuNS0xNjcuNiAzLjItNTUuMSAyLjYtMTA5LjggMi42LTE2NXptLTg4IDIzNS44Yy03LjMgMTguMi0xNi4xIDMxLjgtMzAuMiA0NS44LTE0LjEgMTQuMS0yNy42IDIyLjktNDUuOCAzMC4yQzY5NS4yIDg0NC43IDU3MC4zIDg0MCA1MTIgODQwYy01OC4zIDAtMTgzLjMgNC43LTIzNS45LTE2LjEtMTguMi03LjMtMzEuOC0xNi4xLTQ1LjgtMzAuMi0xNC4xLTE0LjEtMjIuOS0yNy42LTMwLjItNDUuOEMxNzkuMyA2OTUuMiAxODQgNTcwLjMgMTg0IDUxMmMwLTU4LjMtNC43LTE4My4zIDE2LjEtMjM1LjkgNy4zLTE4LjIgMTYuMS0zMS44IDMwLjItNDUuOHMyNy42LTIyLjkgNDUuOC0zMC4yQzMyOC43IDE3OS4zIDQ1My43IDE4NCA1MTIgMTg0czE4My4zLTQuNyAyMzUuOSAxNi4xYzE4LjIgNy4zIDMxLjggMTYuMSA0NS44IDMwLjIgMTQuMSAxNC4xIDIyLjkgMjcuNiAzMC4yIDQ1LjhDODQ0LjcgMzI4LjcgODQwIDQ1My43IDg0MCA1MTJjMCA1OC4zIDQuNyAxODMuMi0xNi4yIDIzNS44eiIgLz48L3N2Zz4=) */
+
+/**![left](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTcyNCAyMTguM1YxNDFjMC02LjctNy43LTEwLjQtMTIuOS02LjNMMjYwLjMgNDg2LjhhMzEuODYgMzEuODYgMCAwMDAgNTAuM2w0NTAuOCAzNTIuMWM1LjMgNC4xIDEyLjkuNCAxMi45LTYuM3YtNzcuM2MwLTQuOS0yLjMtOS42LTYuMS0xMi42bC0zNjAtMjgxIDM2MC0yODEuMWMzLjgtMyA2LjEtNy43IDYuMS0xMi42eiIgLz48L3N2Zz4=) */
+
+/**![linkedin](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTg0Ny43IDExMkgxNzYuM2MtMzUuNSAwLTY0LjMgMjguOC02NC4zIDY0LjN2NjcxLjRjMCAzNS41IDI4LjggNjQuMyA2NC4zIDY0LjNoNjcxLjRjMzUuNSAwIDY0LjMtMjguOCA2NC4zLTY0LjNWMTc2LjNjMC0zNS41LTI4LjgtNjQuMy02NC4zLTY0LjN6bTAgNzM2Yy00NDcuOC0uMS02NzEuNy0uMi02NzEuNy0uMy4xLTQ0Ny44LjItNjcxLjcuMy02NzEuNyA0NDcuOC4xIDY3MS43LjIgNjcxLjcuMy0uMSA0NDcuOC0uMiA2NzEuNy0uMyA2NzEuN3pNMjMwLjYgNDExLjloMTE4Ljd2MzgxLjhIMjMwLjZ6bTU5LjQtNTIuMmMzNy45IDAgNjguOC0zMC44IDY4LjgtNjguOGE2OC44IDY4LjggMCAxMC0xMzcuNiAwYy0uMSAzOCAzMC43IDY4LjggNjguOCA2OC44em0yNTIuMyAyNDUuMWMwLTQ5LjggOS41LTk4IDcxLjItOTggNjAuOCAwIDYxLjcgNTYuOSA2MS43IDEwMS4ydjE4NS43aDExOC42VjU4NC4zYzAtMTAyLjgtMjIuMi0xODEuOS0xNDIuMy0xODEuOS01Ny43IDAtOTYuNCAzMS43LTExMi4zIDYxLjdoLTEuNnYtNTIuMkg0MjMuN3YzODEuOGgxMTguNlY2MDQuOHoiIC8+PC9zdmc+) */
+
+/**![loading](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTk4OCA1NDhjLTE5LjkgMC0zNi0xNi4xLTM2LTM2IDAtNTkuNC0xMS42LTExNy0zNC42LTE3MS4zYTQ0MC40NSA0NDAuNDUgMCAwMC05NC4zLTEzOS45IDQzNy43MSA0MzcuNzEgMCAwMC0xMzkuOS05NC4zQzYyOSA4My42IDU3MS40IDcyIDUxMiA3MmMtMTkuOSAwLTM2LTE2LjEtMzYtMzZzMTYuMS0zNiAzNi0zNmM2OS4xIDAgMTM2LjIgMTMuNSAxOTkuMyA0MC4zQzc3Mi4zIDY2IDgyNyAxMDMgODc0IDE1MGM0NyA0NyA4My45IDEwMS44IDEwOS43IDE2Mi43IDI2LjcgNjMuMSA0MC4yIDEzMC4yIDQwLjIgMTk5LjMuMSAxOS45LTE2IDM2LTM1LjkgMzZ6IiAvPjwvc3ZnPg==) */
+
+/**![minus-circle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTY5NiA0ODBIMzI4Yy00LjQgMC04IDMuNi04IDh2NDhjMCA0LjQgMy42IDggOCA4aDM2OGM0LjQgMCA4LTMuNiA4LTh2LTQ4YzAtNC40LTMuNi04LTgtOHoiIC8+PHBhdGggZD0iTTUxMiA2NEMyNjQuNiA2NCA2NCAyNjQuNiA2NCA1MTJzMjAwLjYgNDQ4IDQ0OCA0NDggNDQ4LTIwMC42IDQ0OC00NDhTNzU5LjQgNjQgNTEyIDY0em0wIDgyMGMtMjA1LjQgMC0zNzItMTY2LjYtMzcyLTM3MnMxNjYuNi0zNzIgMzcyLTM3MiAzNzIgMTY2LjYgMzcyIDM3Mi0xNjYuNiAzNzItMzcyIDM3MnoiIC8+PC9zdmc+) */
+
+/**![plus](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTQ4MiAxNTJoNjBxOCAwIDggOHY3MDRxMCA4LTggOGgtNjBxLTggMC04LThWMTYwcTAtOCA4LTh6IiAvPjxwYXRoIGQ9Ik0xOTIgNDc0aDY3MnE4IDAgOCA4djYwcTAgOC04IDhIMTYwcS04IDAtOC04di02MHEwLTggOC04eiIgLz48L3N2Zz4=) */
+
+/**![question-circle](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTUxMiA2NEMyNjQuNiA2NCA2NCAyNjQuNiA2NCA1MTJzMjAwLjYgNDQ4IDQ0OCA0NDggNDQ4LTIwMC42IDQ0OC00NDhTNzU5LjQgNjQgNTEyIDY0em0wIDgyMGMtMjA1LjQgMC0zNzItMTY2LjYtMzcyLTM3MnMxNjYuNi0zNzIgMzcyLTM3MiAzNzIgMTY2LjYgMzcyIDM3Mi0xNjYuNiAzNzItMzcyIDM3MnoiIC8+PHBhdGggZD0iTTYyMy42IDMxNi43QzU5My42IDI5MC40IDU1NCAyNzYgNTEyIDI3NnMtODEuNiAxNC41LTExMS42IDQwLjdDMzY5LjIgMzQ0IDM1MiAzODAuNyAzNTIgNDIwdjcuNmMwIDQuNCAzLjYgOCA4IDhoNDhjNC40IDAgOC0zLjYgOC04VjQyMGMwLTQ0LjEgNDMuMS04MCA5Ni04MHM5NiAzNS45IDk2IDgwYzAgMzEuMS0yMiA1OS42LTU2LjEgNzIuNy0yMS4yIDguMS0zOS4yIDIyLjMtNTIuMSA0MC45LTEzLjEgMTktMTkuOSA0MS44LTE5LjkgNjQuOVY2MjBjMCA0LjQgMy42IDggOCA4aDQ4YzQuNCAwIDgtMy42IDgtOHYtMjIuN2E0OC4zIDQ4LjMgMCAwMTMwLjktNDQuOGM1OS0yMi43IDk3LjEtNzQuNyA5Ny4xLTEzMi41LjEtMzkuMy0xNy4xLTc2LTQ4LjMtMTAzLjN6TTQ3MiA3MzJhNDAgNDAgMCAxMDgwIDAgNDAgNDAgMCAxMC04MCAweiIgLz48L3N2Zz4=) */
+
+/**![right](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTc2NS43IDQ4Ni44TDMxNC45IDEzNC43QTcuOTcgNy45NyAwIDAwMzAyIDE0MXY3Ny4zYzAgNC45IDIuMyA5LjYgNi4xIDEyLjZsMzYwIDI4MS4xLTM2MCAyODEuMWMtMy45IDMtNi4xIDcuNy02LjEgMTIuNlY4ODNjMCA2LjcgNy43IDEwLjQgMTIuOSA2LjNsNDUwLjgtMzUyLjFhMzEuOTYgMzEuOTYgMCAwMDAtNTAuNHoiIC8+PC9zdmc+) */
+
+/**![search](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkwOS42IDg1NC41TDY0OS45IDU5NC44QzY5MC4yIDU0Mi43IDcxMiA0NzkgNzEyIDQxMmMwLTgwLjItMzEuMy0xNTUuNC04Ny45LTIxMi4xLTU2LjYtNTYuNy0xMzItODcuOS0yMTIuMS04Ny45cy0xNTUuNSAzMS4zLTIxMi4xIDg3LjlDMTQzLjIgMjU2LjUgMTEyIDMzMS44IDExMiA0MTJjMCA4MC4xIDMxLjMgMTU1LjUgODcuOSAyMTIuMUMyNTYuNSA2ODAuOCAzMzEuOCA3MTIgNDEyIDcxMmM2NyAwIDEzMC42LTIxLjggMTgyLjctNjJsMjU5LjcgMjU5LjZhOC4yIDguMiAwIDAwMTEuNiAwbDQzLjYtNDMuNWE4LjIgOC4yIDAgMDAwLTExLjZ6TTU3MC40IDU3MC40QzUyOCA2MTIuNyA0NzEuOCA2MzYgNDEyIDYzNnMtMTE2LTIzLjMtMTU4LjQtNjUuNkMyMTEuMyA1MjggMTg4IDQ3MS44IDE4OCA0MTJzMjMuMy0xMTYuMSA2NS42LTE1OC40QzI5NiAyMTEuMyAzNTIuMiAxODggNDEyIDE4OHMxMTYuMSAyMy4yIDE1OC40IDY1LjZTNjM2IDM1Mi4yIDYzNiA0MTJzLTIzLjMgMTE2LjEtNjUuNiAxNTguNHoiIC8+PC9zdmc+) */
+
+/**![star](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkwOC4xIDM1My4xbC0yNTMuOS0zNi45TDU0MC43IDg2LjFjLTMuMS02LjMtOC4yLTExLjQtMTQuNS0xNC41LTE1LjgtNy44LTM1LTEuMy00Mi45IDE0LjVMMzY5LjggMzE2LjJsLTI1My45IDM2LjljLTcgMS0xMy40IDQuMy0xOC4zIDkuM2EzMi4wNSAzMi4wNSAwIDAwLjYgNDUuM2wxODMuNyAxNzkuMS00My40IDI1Mi45YTMxLjk1IDMxLjk1IDAgMDA0Ni40IDMzLjdMNTEyIDc1NGwyMjcuMSAxMTkuNGM2LjIgMy4zIDEzLjQgNC40IDIwLjMgMy4yIDE3LjQtMyAyOS4xLTE5LjUgMjYuMS0zNi45bC00My40LTI1Mi45IDE4My43LTE3OS4xYzUtNC45IDguMy0xMS4zIDkuMy0xOC4zIDIuNy0xNy41LTkuNS0zMy43LTI3LTM2LjN6TTY2NC44IDU2MS42bDM2LjEgMjEwLjNMNTEyIDY3Mi43IDMyMy4xIDc3MmwzNi4xLTIxMC4zLTE1Mi44LTE0OUw0MTcuNiAzODIgNTEyIDE5MC43IDYwNi40IDM4MmwyMTEuMiAzMC43LTE1Mi44IDE0OC45eiIgLz48L3N2Zz4=) */
+
+/**![twitter](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTkyOCAyNTQuM2MtMzAuNiAxMy4yLTYzLjkgMjIuNy05OC4yIDI2LjRhMTcwLjEgMTcwLjEgMCAwMDc1LTk0IDMzNi42NCAzMzYuNjQgMCAwMS0xMDguMiA0MS4yQTE3MC4xIDE3MC4xIDAgMDA2NzIgMTc0Yy05NC41IDAtMTcwLjUgNzYuNi0xNzAuNSAxNzAuNiAwIDEzLjIgMS42IDI2LjQgNC4yIDM5LjEtMTQxLjUtNy40LTI2Ny43LTc1LTM1MS42LTE3OC41YTE2OS4zMiAxNjkuMzIgMCAwMC0yMy4yIDg2LjFjMCA1OS4yIDMwLjEgMTExLjQgNzYgMTQyLjFhMTcyIDE3MiAwIDAxLTc3LjEtMjEuN3YyLjFjMCA4Mi45IDU4LjYgMTUxLjYgMTM2LjcgMTY3LjRhMTgwLjYgMTgwLjYgMCAwMS00NC45IDUuOGMtMTEuMSAwLTIxLjYtMS4xLTMyLjItMi42QzIxMSA2NTIgMjczLjkgNzAxLjEgMzQ4LjggNzAyLjdjLTU4LjYgNDUuOS0xMzIgNzIuOS0yMTEuNyA3Mi45LTE0LjMgMC0yNy41LS41LTQxLjItMi4xQzE3MS41IDgyMiAyNjEuMiA4NTAgMzU3LjggODUwIDY3MS40IDg1MCA4NDMgNTkwLjIgODQzIDM2NC43YzAtNy40IDAtMTQuOC0uNS0yMi4yIDMzLjItMjQuMyA2Mi4zLTU0LjQgODUuNS04OC4yeiIgLz48L3N2Zz4=) */
+
+/**![windows](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTEyMC4xIDc3MC42TDQ0MyA4MjMuMlY1NDMuOEgxMjAuMXYyMjYuOHptNjMuNC0xNjMuNWgxOTYuMnYxNDEuNmwtMTk2LjItMzEuOVY2MDcuMXptMzQwLjMgMjI2LjVsMzgyIDYyLjJ2LTM1MmgtMzgydjI4OS44em02My40LTIyNi41aDI1NS4zdjIxNC40bC0yNTUuMy00MS42VjYwNy4xem0tNjMuNC00MTUuN3YyODguOGgzODJWMTI4LjFsLTM4MiA2My4zem0zMTguNyAyMjUuNUg1ODcuM1YyNDVsMjU1LjMtNDIuM3YyMTQuMnptLTcyMi40IDYzLjNINDQzVjIwMS45bC0zMjIuOSA1My41djIyNC44ek0xODMuNSAzMDlsMTk2LjItMzIuNXYxNDAuNEgxODMuNVYzMDl6IiAvPjwvc3ZnPg==) */
+
+/**![youtube](data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIGZpbGw9IiNjYWNhY2EiIHZpZXdCb3g9IjY0IDY0IDg5NiA4OTYiIGZvY3VzYWJsZT0iZmFsc2UiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTk2MCA1MDkuMmMwLTIuMiAwLTQuNy0uMS03LjYtLjEtOC4xLS4zLTE3LjItLjUtMjYuOS0uOC0yNy45LTIuMi01NS43LTQuNC04MS45LTMtMzYuMS03LjQtNjYuMi0xMy40LTg4LjhhMTM5LjUyIDEzOS41MiAwIDAwLTk4LjMtOTguNWMtMjguMy03LjYtODMuNy0xMi4zLTE2MS43LTE1LjItMzcuMS0xLjQtNzYuOC0yLjMtMTE2LjUtMi44LTEzLjktLjItMjYuOC0uMy0zOC40LS40aC0yOS40Yy0xMS42LjEtMjQuNS4yLTM4LjQuNC0zOS43LjUtNzkuNCAxLjQtMTE2LjUgMi44LTc4IDMtMTMzLjUgNy43LTE2MS43IDE1LjJBMTM5LjM1IDEzOS4zNSAwIDAwODIuNCAzMDRDNzYuMyAzMjYuNiA3MiAzNTYuNyA2OSAzOTIuOGMtMi4yIDI2LjItMy42IDU0LTQuNCA4MS45LS4zIDkuNy0uNCAxOC44LS41IDI2LjkgMCAyLjktLjEgNS40LS4xIDcuNnY1LjZjMCAyLjIgMCA0LjcuMSA3LjYuMSA4LjEuMyAxNy4yLjUgMjYuOS44IDI3LjkgMi4yIDU1LjcgNC40IDgxLjkgMyAzNi4xIDcuNCA2Ni4yIDEzLjQgODguOCAxMi44IDQ3LjkgNTAuNCA4NS43IDk4LjMgOTguNSAyOC4yIDcuNiA4My43IDEyLjMgMTYxLjcgMTUuMiAzNy4xIDEuNCA3Ni44IDIuMyAxMTYuNSAyLjggMTMuOS4yIDI2LjguMyAzOC40LjRoMjkuNGMxMS42LS4xIDI0LjUtLjIgMzguNC0uNCAzOS43LS41IDc5LjQtMS40IDExNi41LTIuOCA3OC0zIDEzMy41LTcuNyAxNjEuNy0xNS4yIDQ3LjktMTIuOCA4NS41LTUwLjUgOTguMy05OC41IDYuMS0yMi42IDEwLjQtNTIuNyAxMy40LTg4LjggMi4yLTI2LjIgMy42LTU0IDQuNC04MS45LjMtOS43LjQtMTguOC41LTI2LjkgMC0yLjkuMS01LjQuMS03LjZ2LTUuNnptLTcyIDUuMmMwIDIuMSAwIDQuNC0uMSA3LjEtLjEgNy44LS4zIDE2LjQtLjUgMjUuNy0uNyAyNi42LTIuMSA1My4yLTQuMiA3Ny45LTIuNyAzMi4yLTYuNSA1OC42LTExLjIgNzYuMy02LjIgMjMuMS0yNC40IDQxLjQtNDcuNCA0Ny41LTIxIDUuNi03My45IDEwLjEtMTQ1LjggMTIuOC0zNi40IDEuNC03NS42IDIuMy0xMTQuNyAyLjgtMTMuNy4yLTI2LjQuMy0zNy44LjNoLTI4LjZsLTM3LjgtLjNjLTM5LjEtLjUtNzguMi0xLjQtMTE0LjctMi44LTcxLjktMi44LTEyNC45LTcuMi0xNDUuOC0xMi44LTIzLTYuMi00MS4yLTI0LjQtNDcuNC00Ny41LTQuNy0xNy43LTguNS00NC4xLTExLjItNzYuMy0yLjEtMjQuNy0zLjQtNTEuMy00LjItNzcuOS0uMy05LjMtLjQtMTgtLjUtMjUuNyAwLTIuNy0uMS01LjEtLjEtNy4xdi00LjhjMC0yLjEgMC00LjQuMS03LjEuMS03LjguMy0xNi40LjUtMjUuNy43LTI2LjYgMi4xLTUzLjIgNC4yLTc3LjkgMi43LTMyLjIgNi41LTU4LjYgMTEuMi03Ni4zIDYuMi0yMy4xIDI0LjQtNDEuNCA0Ny40LTQ3LjUgMjEtNS42IDczLjktMTAuMSAxNDUuOC0xMi44IDM2LjQtMS40IDc1LjYtMi4zIDExNC43LTIuOCAxMy43LS4yIDI2LjQtLjMgMzcuOC0uM2gyOC42bDM3LjguM2MzOS4xLjUgNzguMiAxLjQgMTE0LjcgMi44IDcxLjkgMi44IDEyNC45IDcuMiAxNDUuOCAxMi44IDIzIDYuMiA0MS4yIDI0LjQgNDcuNCA0Ny41IDQuNyAxNy43IDguNSA0NC4xIDExLjIgNzYuMyAyLjEgMjQuNyAzLjQgNTEuMyA0LjIgNzcuOS4zIDkuMy40IDE4IC41IDI1LjcgMCAyLjcuMSA1LjEuMSA3LjF2NC44ek00MjMgNjQ2bDIzMi0xMzUtMjMyLTEzM3oiIC8+PC9zdmc+) */
